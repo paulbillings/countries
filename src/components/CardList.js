@@ -13,6 +13,8 @@ const CardList = ({ countries }) => {
 							name={countries[i].name} 
 							capital={countries[i].capital}
 							flag={countries[i].flag}
+							region={countries[i].region}
+							population={countries[i].population}
 						/>
 					);
 				})

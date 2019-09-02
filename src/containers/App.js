@@ -34,7 +34,7 @@ class App extends Component {
 		} else {
 			return (
 				<div className="tc">
-					<h1 className="f1">Countries</h1>
+					<h1 className="f1">Countries Of The World</h1>
 					<SearchBox searchChange={this.onSearchChange}/>
 					<Scroll>
 						<CardList countries={filteredCountries} />
