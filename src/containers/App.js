@@ -15,7 +15,7 @@ class App extends Component {
 	}
 
 	componentDidMount() {
-		fetch("https://jsonplaceholder.typicode.com/users")
+		fetch("https://restcountries.eu/rest/v2/all")
 			.then(response => response.json())
 			.then(users => this.setState({ robots: users }))
 	}
